@@ -1,0 +1,34 @@
+name: evoucher_hr
+description: "E voucher HR app for employes and company."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/font/Metropolis-Regular.otf
+        - asset: assets/font/Metropolis-Medium.otf
+          weight: 500
+        - asset: assets/font/Metropolis-SemiBold.otf
+          weight: 600
+        - asset: assets/font/Metropolis-Bold.otf
+          weight: 700
+        - asset: assets/font/Metropolis-ExtraBold.otf
+          weight: 800
